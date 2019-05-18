@@ -22,17 +22,13 @@
 
 ## For developers
 
-### Create venv and install deps
+### Install deps and setup pre-commit hook
 
     make init
 
-### Install git precommit hook
-
-    make precommit_install
-
 ### Run linters, autoformat, tests etc.
 
-    make pretty lint test
+    make format lint test
 
 ### Bump new version
 

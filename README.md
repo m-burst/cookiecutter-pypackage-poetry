@@ -7,7 +7,7 @@ The cookicutter template of a python package with poetry, travis, etc.
 ### Create project
 
 ```bash
-$ cookiecutter gh/Afonasev/cookiecutter-pypackage-poetry
+$ cookiecutter gh/m-burst/cookiecutter-pypackage-poetry
 project_name []: my_project
 full_name []: John Doe
 email []: john_doe@gmail.com
@@ -18,17 +18,13 @@ Select use_travis:
 Choose from 1, 2 (1, 2) [1]: 1
 ```
 
-### Create venv and install deps
+### Install deps and setup pre-commit hook
 
     make init
 
-### Install git precommit hook
-
-    make precommit_install
-
 ### Run linters, autoformat, tests etc.
 
-    make pretty lint test
+    make format lint test
 
 ### Bump new version
 
