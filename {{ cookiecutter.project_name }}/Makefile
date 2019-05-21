@@ -1,6 +1,6 @@
 .PHONY: init test test-cov lint format
 
-CODE = pylint_requests
+CODE = {{ cookiecutter.project_slug }}
 TEST = pytest --verbosity=2 --showlocals --strict --cov=$(CODE)
 
 init:
