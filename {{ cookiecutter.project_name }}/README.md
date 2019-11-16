@@ -10,7 +10,7 @@
 
 ## Description
 
-...
+{{ cookiecutter.description }}
 
 ## Installation
 
@@ -42,6 +42,7 @@ MIT
 
 ## Change Log
 
-### Unreleased
+Unreleased
+-----
 
 * initial

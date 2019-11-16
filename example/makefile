@@ -1,6 +1,6 @@
 .PHONY: init test lint pretty bump_major bump_minor bump_patch
 
-CODE = {{ cookiecutter.project_slug }}
+CODE = example
 
 init:
 	poetry install

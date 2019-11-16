@@ -1,13 +1,13 @@
 # cookiecutter-pypackage-poetry
 
-The cookicutter template of a python package with poetry, travis, etc.
+The cookiecutter template of a python package with poetry, travis, etc.
 
 ## Usage
 
 ### Create project
 
 ```bash
-$ cookiecutter https://github.com/m-burst/cookiecutter-pypackage-poetry
+$ cookiecutter gh/m-burst/cookiecutter-pypackage-poetry
 project_name []: my_project
 full_name []: John Doe
 email []: john_doe@gmail.com

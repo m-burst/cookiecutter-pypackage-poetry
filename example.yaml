@@ -1,0 +1,7 @@
+default_context:
+  project_name: "example"
+  description: "My example project"
+  full_name: "Mikhail Burshteyn"
+  email: "mdburshteyn@gmail.com"
+  github_username: "m-burst"
+  use_travis: "yes"
