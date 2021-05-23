@@ -1,6 +1,6 @@
 .PHONY: init test test-cov lint format bump_major bump_minor bump_patch
 
-CODE = {{ cookiecutter.project_slug }}
+CODE = example
 TEST = poetry run pytest --verbosity=2 --showlocals --strict-markers --cov=$(CODE)
 
 init:

@@ -1,6 +1,6 @@
 # cookiecutter-pypackage-poetry
 
-The cookiecutter template of a python package with poetry, travis, etc.
+The cookiecutter template of a python package with poetry, actions, etc.
 
 ## Usage
 
@@ -12,10 +12,6 @@ project_name []: my_project
 full_name []: John Doe
 email []: john_doe@gmail.com
 github_username []: john_doe
-Select use_travis:
-1 - yes
-2 - no
-Choose from 1, 2 (1, 2) [1]: 1
 ```
 
 ### Install deps and setup pre-commit hook
